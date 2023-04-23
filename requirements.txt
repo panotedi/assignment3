@@ -1,0 +1,7 @@
+streamlit
+transformers
+tensorflow
+sklearn
+numpy
+glob
+os
