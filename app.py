@@ -16,7 +16,7 @@ st.title("CS634 - Assignment 3")
 user_image_input = st.file_uploader("Upload Images", type=["jpg"])
 
 
-path='lfw/V*'
+path='lfw2/V*'
 photos=[]
 for fold in glob.glob(path, recursive=True):
     for subdir, dirs, files in os.walk(fold):
