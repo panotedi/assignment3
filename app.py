@@ -105,6 +105,7 @@ if(user_image_input != None):
         similar_image_path = photos[indices[0][i]]
         similar_image_distance = distances[0][i]
         st.write("Similar Image #{}: Distance: {}".format(i, similar_image_distance))
+        st.write(similar_image_path)
         st.image(similar_image_path)
 #else:
 #    size=len(photos)
